@@ -30,3 +30,5 @@ ENV LC_ALL=C \
     PATH="${PATH}:/SPAdes-${SPAdesVer}-Linux/bin"
 
 WORKDIR /data
+
+CMD ["/bin/bash", "-c"]
